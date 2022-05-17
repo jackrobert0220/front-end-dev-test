@@ -1,39 +1,38 @@
 {
-  "name": "roostergrin-front-end-dev-test",
-  "version": "1.0.0",
-  "description": "Test",
-  "main": "main.js",
-  "scripts": {
-    "start": "webpack-dev-server --hot --inline",
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/roostergrin/front-end-dev-test"
-  },
-  "author": "Rooster Grin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/roostergrin/front-end-dev-test/issues"
-  },
-  "homepage": "https://github.com/roostergrin/front-end-dev-test",
+  "name": "front-end-dev-test",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.15.0"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "autoprefixer": "^9.5.1",
-    "css-loader": "^2.1.1",
-    "exports-loader": "^0.7.0",
-    "html-loader": "^0.5.5",
-    "node-sass": "^4.11.0",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.3.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

@@ -1,74 +1,70 @@
-# front-end-dev-test
+# Getting Started with Create React App
 
-## Intro
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Congratulations on making it to the testing phase of the hiring process! For this part, we would like to learn about your creativity, how well you code, and how well you follow instructions.
+## Available Scripts
 
-You will need to have knowledge of some key things before you start:
-  - how to run a local server
-  - how to connect your markup to your scripts and styles
-  - front end web development
+In the project directory, you can run:
 
-We have supplied an optional development server and some development dependencies for this project, but feel free to use the development framework of your choice (e.g. create-react-app, vue cli, etc). You are not required to use the codebase provided in this repository, but feel free to use it! If you choose to use this codebase, you can run the development server using the commands found below:
+### `npm start`
 
-<pre>
-  npm install
-  npm start
-</pre>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<em>NOTE: You will need node and npm on your machine if you choose to use the supplied server, also for hosting you will need to set it up yourself.</em>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Instructions
+### `npm test`
 
-The goal of this project is to create a client website that has some key features requested by the client (i.e. Rooster Grin as the client).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Please clone this repo and submit a link to the new project's repo along with any instructions for viewing the final product. It is not required to host this project anywhere, but it would be nice to view your project via a link rather than having to run the build locally.
+### `npm run build`
 
- A .jpg of the mockup and the assets are in the provided .zip folder.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Requirements
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<em>Please read through ALL the requirements before starting your project</em>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<strong>Below are the design requirements:</strong>
+### `npm run eject`
 
-  1. Mockups are followed
-  2. Carousel in last section
-  3. Attention to detail
-  4. Mobile Responsive
-  5. Animations
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Though the main requirement is to follow the mockups, we don't require that it to be pixel perfect. We encourage you to be creative as well with this test, you have some design freedom with the assets provided and feel free to add as many animations as you like. We usually face a lot of ambiguity when developing and designing for our clients so we have left some things up to you to see how you design.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<strong>Below are the technical requirements:</strong>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-  1. Modular and concise code
-  2. Fully functional capabilities of built features
-      - We should not be seeing errors when we click on buttons
-  3. Understanding best practices of web development
-      - Naming conventions and styling
-  4. Best use of images and assets
-  5. Use of a grid system
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-As for the technology that you should use its up to you. 😎
+## Learn More
 
-### Required Features:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-These required features are requested specifically by the client and should be implemented.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-  1. Fade In Effect for the hero title
-  2. Subtle animation on the four icons
-  3. Fully Functional Site
+### Code Splitting
 
-### Bonus (optional) Features:
-  1. Use of dev server
-  2. Front end framework
-  3. Dynamic backend from a CMS
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### *Please also submit a small write up discussing (leave answers to a sentence or two):*
+### Analyzing the Bundle Size
 
-  1. What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
-  2. Any struggles you faced when developing with technology you chose
-  3. What you enjoyed the most and why
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-If you have any questions please feel free to email me (Matt) at matt.sprague@roostergrin.com
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
