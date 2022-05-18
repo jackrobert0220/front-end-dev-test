@@ -1,6 +1,4 @@
 .about {
-    width: 100vw;
-    height: 70vh;
     background-color: white;
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -8,17 +6,30 @@
     
         .left{
             flex: 1;
-            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
+            .wrapper {
+                margin-left: 300px;
+                margin-bottom: 20px;
+                padding-right: 20px;
+                
             h1 {
                 color: rgb(115, 5, 115);
+                margin-bottom: 0.6em;
+            }
+
+            p {
+                margin-bottom: 0.6em;
             }
 
             a {
                 text-decoration: none;
             }
-        
 
+            }
         }
 
         .right {
