@@ -1,0 +1,12 @@
+.welcome {
+    background-image: url(../../../public/assets/hero.jpg);
+    width: 100vw;
+    height: 100vh;
+
+    .logo {
+        width: 250px;
+        display: flex;
+        justify-content: left;
+        margin: 40px 0px 0px 170px; 
+    }
+}
