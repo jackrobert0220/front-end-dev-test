@@ -1,6 +1,38 @@
 .quadrant {
-    background-color: aqua;
+    background-color: white;
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    height: 530px;
+
+    .left{
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .wrapper {
+            margin-top: 150px;
+            margin-left: 280px;
+            padding-right: 20px;
+            
+        h1 {
+            margin-bottom: 0.6em;
+        }
+
+        p {
+            margin-bottom: 0.6em;
+            margin-right: 80px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        }
+    }
+
+    .right {
+        flex: 1;
+        background-color: rgb(240, 236, 236);
+    }
 }
