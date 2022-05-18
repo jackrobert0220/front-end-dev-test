@@ -1,5 +1,28 @@
 .about {
     width: 100vw;
-    height: 100vh;
-    background-color: green;
+    height: 71vh;
+    background-color: white;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+    
+        .left{
+            flex: 1;
+            
+
+            h1 {
+                color: rgb(115, 5, 115);
+            }
+
+            a {
+                text-decoration: none;
+            }
+        
+
+        }
+
+        .right {
+            flex: 1;
+            align-items: center;
+        }
 }

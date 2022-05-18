@@ -2,4 +2,13 @@
     height: 100vh;
     width: 100vw;
     background-color: white;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; //for FireFox
+    &::webkit-scrollbar {
+        display: none;
+    }
+    >* {
+    scroll-snap-align: start;
+    }
 }
