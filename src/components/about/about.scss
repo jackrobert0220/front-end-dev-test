@@ -6,13 +6,12 @@
     
         .left{
             flex: 1;
-            display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
 
             .wrapper {
-                margin-left: 300px;
+                margin-left: 280px;
                 padding-right: 20px;
                 
             h1 {
@@ -22,6 +21,7 @@
 
             p {
                 margin-bottom: 0.6em;
+                margin-right: 80px;
             }
 
             a {

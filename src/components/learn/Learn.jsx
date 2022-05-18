@@ -4,8 +4,12 @@ export default function Learn() {
   return (
     <div className="learn">
         <div className="wrapper">
-            <h1>Lorem Ipsum</h1>
-            <button>Button Button</button>
+            <h1>LOREM IPSUM</h1>
+            <button onClick={() => {
+      window.open(
+        "https://www.jackglazer.com",
+        "_blank");
+    }}>Button Button</button>
         </div>
 
     </div>

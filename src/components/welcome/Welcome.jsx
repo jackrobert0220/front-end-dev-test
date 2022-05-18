@@ -14,7 +14,11 @@ export default function Welcome() {
                 </div>
 
                 <div className="buttonWrap">
-                    <button className="buttonOne">Button Button</button>
+                    <button className="buttonOne" onClick={() => {
+      window.open(
+        "https://www.jackglazer.com",
+        "_blank");
+    }}>Button Button</button>
                 </div>
         </div>
     )
