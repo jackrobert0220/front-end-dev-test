@@ -1,6 +1,24 @@
 .learn {
-    display: flex;
-    background-color: orange;
-    width: 100vw;
-    height: 100vh;
+    background-image: url("../../../public/assets/banner-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    
+
+    font-family: 'Roboto', sans-serif;
+    
+
+    .wrapper {
+        z-index: 0;
+
+        button {
+                color: white;
+                background-color: rgb(240, 148, 0);
+                width: 120px;
+                height: 40px;
+                border-radius: 5%;
+                border: none;
+        }
+    }
 }

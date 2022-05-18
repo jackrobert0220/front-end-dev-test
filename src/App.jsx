@@ -2,6 +2,7 @@ import "./app.scss";
 import Welcome from "./components/welcome/Welcome";
 import About from "./components/about/About";
 import Learn from "./components/learn/Learn";
+import Quadrant from "./components/quadrant/Quadrant";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Welcome />
       <About />
       <Learn />
+      <Quadrant />
     </div>
   );
 }
