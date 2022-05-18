@@ -15,6 +15,34 @@ export default function Quadrant() {
         </div>
         <div className="right">
           
+            <div className="quadOne">
+              <div className="circle">
+                <img className="linkImage" src="./assets/home-expertise.svg" alt=""/>
+              </div>
+              <h1>LOREM</h1>
+            </div>
+
+            <div className="quadTwo">
+              <div className="circle">
+                <img className="linkImage" src="./assets/home-hygiene.svg" alt=""/>
+              </div>
+              <h1>LOREM IPSUM</h1>
+            </div>
+
+            <div className="quadThree">
+              <div className="circle">
+                <img className="linkImage" src="./assets/home-lab.svg" alt=""/>
+              </div>
+              <h1>LOREM IPSUM</h1>
+            </div>
+
+            <div className="quadFour">
+              <div className="circle">
+                <img className="linkImage" src="./assets/home-retention.svg" alt=""/>
+              </div>
+              <h1>LOREM</h1>
+            </div>
+          
         </div>
 
     </div>
