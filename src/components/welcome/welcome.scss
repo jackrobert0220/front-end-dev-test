@@ -2,6 +2,7 @@
     background-image: url(../../../public/assets/hero.jpg);
     width: 100vw;
     height: 100vh;
+    background-repeat: no-repeat;
 
     .logo {
         width: 250px;
@@ -34,7 +35,7 @@
     .buttonWrap {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin: 20px;
 
         .buttonOne {
             color: white;
@@ -45,5 +46,11 @@
             border: none;
             font-family: 'Roboto', sans-serif;
         }
+       
+        .buttonOne:hover {
+            background-color: #ea7a01;
+            color: white;
+          }
+
     }
 }

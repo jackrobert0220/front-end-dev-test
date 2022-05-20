@@ -1,5 +1,5 @@
-.learn {
-    background-image: url("../../../public/assets/banner-1.jpg");
+.scream {
+    background-image: url("../../../public/assets/banner-2.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -9,11 +9,15 @@
     
 
     .wrapper {
-        margin: 250px 0px 100px 300px;
+        margin: 250px 300px 100px 800px;
 
         h1 {
             color: rgb(115, 5, 115);
             margin-bottom: 0.2em;
+        }
+
+        p {
+            margin-bottom: 10px;
         }
 
         button {
@@ -29,6 +33,5 @@
             background-color: #8e18f6;
             color: white;
           }
-
     }
 }
