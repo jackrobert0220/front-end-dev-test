@@ -1,0 +1,34 @@
+.footer {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(235, 228, 228);
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+
+    .wrapper {
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .imageWrap {
+            
+            h3 {
+                justify-content: center;
+            }
+
+            a{
+                
+                img {
+                    width: 80px;
+                }
+                
+                img:hover {
+                    background-color: #8e18f6;
+                    border-radius: 20%;
+                }
+            }
+        }
+    }
+    
+}
