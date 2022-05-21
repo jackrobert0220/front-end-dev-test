@@ -14,11 +14,11 @@ export default function Quadrant() {
             </div>
         </div>
         <div className="right">
-          
             <div className="quadOne">
+            <a href="https://www.jackglazer.com" target="_blank" rel="noreferrer">
               <div className="circle">
                 <img className="linkImage" src="./assets/home-expertise.svg" alt=""/>
-              </div>
+              </div></a>
               <h1>LOREM</h1>
             </div>
 
