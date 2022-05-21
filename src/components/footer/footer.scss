@@ -4,30 +4,38 @@
     background-color: rgb(235, 228, 228);
     bottom: 0;
     font-family: 'Roboto', sans-serif;
-
+    
     .wrapper {
         padding: 10px 30px;
         display: flex;
-        align-items: center;
+        text-align: center;
         justify-content: center;
+        flex-direction: column;
+
+        h3 {
+            font-size:x-large;
+            padding-top: 20px;
+        }
+    }
 
         .imageWrap {    
-            h3 {
-                justify-content: center;
-            }
+            display: flex;
+            flex-direction: row;
+            color:#8e18f6;
+            justify-content: center;
+            
 
             a{
-                
+                padding: 6px 16px;
                 img {
                     width: 80px;
                 }
                 
                 img:hover {
-                    background-color: #8e18f6;
+                    background-color: #ef7d12;
                     border-radius: 20%;
                 }
             }
         }
-    }
     
 }
