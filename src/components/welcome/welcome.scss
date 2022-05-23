@@ -1,56 +1,70 @@
 .welcome {
-    background-image: url(../../../public/assets/hero.jpg);
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
 
-    .logo {
-        width: 250px;
-        display: flex;
-        justify-content: left;
-        margin: 40px 0px 0px 170px; 
+    position: relative;
+    
+    &__hero-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: url(../../../public/assets/hero.jpg); 
     }
 
-    .title {
+    &__container {
+        position: relative;
+        padding-bottom: 10rem;
+    }
+
+    &__logo {
+        width: 250px;
+        // Fine for setting up just one logo.
+        // I would prefer to set a container variable as the max-width
+        margin: 40px 0px 0px 170px;
+        @media (max-width:768px) {
+            margin: 40px auto;
+        }
+    }
+
+    &__title {
         display: flex;
         flex-direction: column;
         align-items: center;
         color: white;
         margin-top: 180px;
-    
+        text-align: center;
 
-        .lineOne {
-            // Closest font I could find
+        &--line-one {
             font-family: 'Londrina Outline', cursive;
             font-weight: bold;
             font-size: 80px;
         }
-        .lineTwo {
+        &--line-two {
             font-family: 'Roboto', sans-serif;
             font-size: 60px;
         }
     }   
 
 
-    .buttonWrap {
-        display: flex;
-        justify-content: center;
-        margin: 20px;
-
-        .buttonOne {
+    &__button {
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        &-content{
             color: white;
             background-color: rgb(170, 81, 170);
-            width: 120px;
-            height: 40px;
-            border-radius: 5%;
-            border: none;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        .buttonOne:hover {
-            background-color: #ea7a01;
-            color: white;
-        }
-
+            padding: 1em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.1s ease-in;
+            &:hover {
+                // fwiw this is an accessibility issue.
+                background-color: #ea7a01;
+                color: white;
+                }
+            }
     }
 }
