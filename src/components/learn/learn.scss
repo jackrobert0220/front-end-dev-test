@@ -8,12 +8,17 @@
     display: flex;
     
 
-    .wrapper {
+    &__wrapper {
         margin: 250px 0px 100px 300px;
+        @media (max-width:768px) {
+            margin: 10px auto;
+        }
+    }
 
         h1 {
             color: rgb(115, 5, 115);
             margin-bottom: 0.2em;
+
         }
 
         button {
@@ -31,4 +36,3 @@
           }
 
     }
-}
