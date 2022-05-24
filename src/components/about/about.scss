@@ -24,6 +24,7 @@
         @media (max-width:768px) {
             align-items: center;
             padding:20px;
+            margin-left: 0;
         }
     }
             
@@ -51,17 +52,12 @@
         
         @media (max-width:768px) {
             align-items: flex-start;
-            
         }
     }
-        
-        img {
-            height: 100%;
-
-            @media (max-width:768px) {
-                height: 55%;
-            }
-        }
+    
+    img {
+        height: 100%;
+    }
     }
     
 

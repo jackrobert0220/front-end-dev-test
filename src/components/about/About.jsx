@@ -14,7 +14,7 @@ export default function About() {
         </div>
 
         <div className="about__right">
-            <img src="./assets/img-1.jpg" alt="" />
+            <img className="about__cimbers" src="./assets/img-1.jpg" alt="" />
         </div>
     </div>
   )
