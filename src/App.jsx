@@ -5,6 +5,7 @@ import Learn from "./components/learn/Learn";
 import Quadrant from "./components/quadrant/Quadrant";
 import Scream from "./components/scream/Scream";
 import Footer from "./components/footer/Footer";
+import Ratings from "./components/ratings/Ratings";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Learn />
         <Quadrant />
         <Scream />
+        <Ratings />
       </div>
       <Footer />
     </div>
